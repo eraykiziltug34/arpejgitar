@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arpej Klasik Gitar Akademisi | Klasik Gitar Eğitimi & Nota Arşivi</title>
+  <meta name="description" content="Sıfırdan ileri seviyeye klasik gitar dersleri, etütler, interaktif metronom, akort tonları ve nota kütüphanesi. Müziğin zarafetini parmaklarınızda hissedin.">
+  
+  <!-- Google Fonts: Playfair Display & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Üst Duyuru Barı -->
+  <div class="top-announcement">
+    <div class="container announcement-content">
+      <span><i class="fa-solid fa-sparkles"></i> <strong>Yeni Dönem Kayıtları:</strong> İlk birebir deneme dersiniz %100 ücretsiz!</span>
+      <a href="#register" class="announcement-link">Hemen Başvur &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-guitar"></i></span>
+        <span class="logo-text">ARPEJ<span class="logo-sub">AKADEMİ</span></span>
+      </a>
+
+      <nav class="navbar" id="navbar">
+        <ul class="nav-links">
+          <li><a href="#programs" class="nav-link">Eğitimler</a></li>
+          <li><a href="#tools" class="nav-link">Metronom & Akort</a></li>
+          <li><a href="#library" class="nav-link">Nota Kütüphanesi</a></li>
+          <li><a href="#instructors" class="nav-link">Eğitmenler</a></li>
+          <li><a href="#faq" class="nav-link">S.S.S.</a></li>
+          <li><a href="#register" class="btn btn-nav">Deneme Dersi Al</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Mobil Menü Butonu -->
+        <button id="mobile-toggle" class="icon-btn mobile-toggle" aria-label="Menüyü Aç" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Bölümü -->
+    <section class="hero section" id="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-award"></i> Konservatuar Müfredatına Uygun Metodoloji
+          </div>
+          <h1 class="hero-title">
+            Parmaklarınızın Ucundaki Zarafet: <span class="highlight-wood">Klasik Gitarı</span> Ustasından Öğrenin
+          </h1>
+          <p class="hero-description">
+            Doğru oturuş ve tırnak açısından Carcassi ve Tárrega etütlerine; Bach polifonilerinden çağdaş eserlere kadar adım adım klasik gitar yolculuğuna başlayın.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#programs" class="btn btn-primary">
+              <i class="fa-solid fa-graduation-cap"></i> Programları Keşfet
+            </a>
+            <a href="#register" class="btn btn-outline">
+              <i class="fa-solid fa-calendar-check"></i> Ücretsiz Deneme Dersi
+            </a>
+          </div>
+
+          <!-- İstatistikler -->
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="stat-number">1,250+</span>
+              <span class="stat-label">Aktif Öğrenci</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+              <span class="stat-number">180+</span>
+              <span class="stat-label">Video Ders & Etüt</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+              <span class="stat-number">450+</span>
+              <span class="stat-label">Nota & Tab Arşivi</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+              <span class="stat-number">4.9/5</span>
+              <span class="stat-label">Öğrenci Puanı</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Görsel / Sanal Gitar İllüstrasyonu -->
+        <div class="hero-visual">
+          <div class="guitar-card">
+            <div class="guitar-glow"></div>
+            <div class="guitar-illustration">
+              <i class="fa-solid fa-guitar main-guitar-icon"></i>
+            </div>
+            <div class="floating-wood-badge badge-top">
+              <i class="fa-solid fa-music"></i>
+              <div>
+                <strong>Tirando & Apoyando</strong>
+                <small>Temel Vuruş Teknikleri</small>
+              </div>
+            </div>
+            <div class="floating-wood-badge badge-bottom">
+              <i class="fa-solid fa-certificate"></i>
+              <div>
+                <strong>ABRSM & LCM</strong>
+                <small>Sertifika Hazırlığı</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Neden Klasik Gitar / Özellikler -->
+    <section class="features-section section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// AKADEMİK YAKLAŞIM</span>
+          <h2 class="section-title">Klasik Gitarı Doğru Temellerle Öğrenin</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Gelişigüzel yöntemlerle değil; yüzyıllık klasik gitar geleneğini modern dijital araçlarla harmanlayan kapsamlı bir sistem.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-hand"></i>
+            </div>
+            <h3>Sağ & Sol El Ergonomisi</h3>
+            <p>
+              Tırnak törpüleme, el bileği duruşu, parmak bağımsızlığı ve tendon sağlığını koruyan doğru pozisyon çalışmaları.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <h3>Kapsamlı Solfej & Deşifre</h3>
+            <p>
+              Tablature'a bağımlı kalmadan notaları dizek üzerinden hızlıca okuma, ritim analizi ve müzikal deşifre becerisi.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-sliders"></i>
+            </div>
+            <h3>Birebir Geri Bildirim</h3>
+            <p>
+              Haftalık video performans değerlendirmeleriyle hataların anında düzeltilmesi ve kişisel çalışma planı.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-compact-disc"></i>
+            </div>
+            <h3>Geniş Klasik Repertuar</h3>
+            <p>
+              Rönesans, Barok, Klasik, Romantik ve İspanyol Flamenko dönemlerinden ölümsüz gitar başyapıtları.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eğitim Seviyeleri (Programlar) -->
+    <section class="programs section" id="programs">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// MÜFREDAT</span>
+          <h2 class="section-title">Eğitim Seviyeleri & Programlar</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Müzik geçmişinize göre ister sıfırdan başlayın, ister sahne ve konservatuara hazırlanın.
+          </p>
+        </div>
+
+        <div class="programs-grid">
+          <!-- Seviye 1: Başlangıç -->
+          <div class="program-card">
+            <div class="program-level-badge level-1">1. Seviye</div>
+            <div class="program-header">
+              <h3 class="program-title">Temel Klasik Gitar</h3>
+              <div class="program-duration"><i class="fa-regular fa-clock"></i> 8 Hafta (Temel Seviye)</div>
+            </div>
+            <p class="program-desc">
+              Gitarı tanıma, doğru oturuş pozisyonu (ayaklık kullanımı), boş tellerde tirando vuruşlar ve ilk dizek notaları.
+            </p>
+            <ul class="program-topics">
+              <li><i class="fa-solid fa-check"></i> Gitar anatomisi, tel seçimi ve akort yapma</li>
+              <li><i class="fa-solid fa-check"></i> Sağ el p-i-m-a parmak koordinasyonu</li>
+              <li><i class="fa-solid fa-check"></i> 1. Pozisyonda nota okuma & basit melodiler</li>
+              <li><i class="fa-solid fa-check"></i> Kolay Aguado & Carulli başlangıç etütleri</li>
+            </ul>
+            <a href="#register" class="btn btn-outline btn-block">Programa Kayıt Ol</a>
+          </div>
+
+          <!-- Seviye 2: Orta (Öne Çıkan) -->
+          <div class="program-card featured-program">
+            <div class="program-featured-ribbon">En Çok Tercih Edilen</div>
+            <div class="program-level-badge level-2">2. Seviye</div>
+            <div class="program-header">
+              <h3 class="program-title">Orta Düzey & Arpej Teknikleri</h3>
+              <div class="program-duration"><i class="fa-regular fa-clock"></i> 12 Hafta (Orta Seviye)</div>
+            </div>
+            <p class="program-desc">
+              Giuliani'nin 120 arpej etüdü, bare basışlar, legato ve pozisyon geçişleriyle polifonik çalma yeteneği.
+            </p>
+            <ul class="program-topics">
+              <li><i class="fa-solid fa-check"></i> Yarım ve tam bare (barré) temizliği</li>
+              <li><i class="fa-solid fa-check"></i> Carcassi Op. 60 öne çıkan etütler</li>
+              <li><i class="fa-solid fa-check"></i> Romanza (Romance Anonimo) ve Lágrima (Tárrega)</li>
+              <li><i class="fa-solid fa-check"></i> Dinamikler (piano, forte, crescendo) ve tını kontrolü</li>
+            </ul>
+            <a href="#register" class="btn btn-primary btn-block">Programa Kayıt Ol</a>
+          </div>
+
+          <!-- Seviye 3: İleri -->
+          <div class="program-card">
+            <div class="program-level-badge level-3">3. Seviye</div>
+            <div class="program-header">
+              <h3 class="program-title">İleri Seviye & Konser Repertuarı</h3>
+              <div class="program-duration"><i class="fa-regular fa-clock"></i> 16 Hafta (İleri Seviye)</div>
+            </div>
+            <p class="program-desc">
+              Virtüözlük gerektiren tremolo, campanella, yapay flajoleler ve Bach süitlerinin gitar uyarlamaları.
+            </p>
+            <ul class="program-topics">
+              <li><i class="fa-solid fa-check"></i> Recuerdos de la Alhambra (Tremolo tekniği)</li>
+              <li><i class="fa-solid fa-check"></i> Heitor Villa-Lobos Etude No. 1 & Prelüdler</li>
+              <li><i class="fa-solid fa-check"></i> J.S. Bach Lute Süitleri & Chaconne analizi</li>
+              <li><i class="fa-solid fa-check"></i> Sahneye hazırlık, kayıt alma & ton masterı</li>
+            </ul>
+            <a href="#register" class="btn btn-outline btn-block">Programa Kayıt Ol</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İnteraktif Pratik Araçları: Metronom & Gitar Akort Tonları -->
+    <section class="tools-section section" id="tools">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// İNTERAKTİF PRATİK</span>
+          <h2 class="section-title">Klasik Gitarist Araç Kutusu</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Ders çalışırken başka bir uygulamaya ihtiyaç duymayın. Tarayıcınız üzerinden canlı metronom çalıştırın ve tellerinizi akort edin.
+          </p>
+        </div>
+
+        <div class="tools-grid">
+          <!-- Web Metronomu -->
+          <div class="tool-card metronome-card">
+            <div class="tool-card-header">
+              <i class="fa-solid fa-stopwatch-20"></i>
+              <div>
+                <h3>Hassas Web Metronomu</h3>
+                <small>Ritim duygunuzu geliştirin ve etüt hızınızı ölçün</small>
+              </div>
+            </div>
+
+            <div class="metronome-display">
+              <span class="bpm-number" id="bpm-display">100</span>
+              <span class="bpm-text">BPM</span>
+              <span class="tempo-name" id="tempo-name">Andante</span>
+            </div>
+
+            <div class="metronome-slider-container">
+              <button class="bpm-step-btn" id="bpm-minus"><i class="fa-solid fa-minus"></i></button>
+              <input type="range" id="bpm-slider" min="40" max="220" value="100" class="bpm-slider">
+              <button class="bpm-step-btn" id="bpm-plus"><i class="fa-solid fa-plus"></i></button>
+            </div>
+
+            <div class="metronome-controls">
+              <button class="btn btn-primary btn-metronome" id="metronome-toggle">
+                <i class="fa-solid fa-play" id="metro-icon"></i>
+                <span id="metro-text">Metronomu Başlat</span>
+              </button>
+            </div>
+
+            <!-- Ritim Görsel Işığı -->
+            <div class="beat-indicators" id="beat-indicators">
+              <span class="beat-light active"></span>
+              <span class="beat-light"></span>
+              <span class="beat-light"></span>
+              <span class="beat-light"></span>
+            </div>
+          </div>
+
+          <!-- Standart Akort Ton Üreticisi (Tuner Pitch) -->
+          <div class="tool-card tuner-card">
+            <div class="tool-card-header">
+              <i class="fa-solid fa-wave-square"></i>
+              <div>
+                <h3>Klasik Gitar Akort Tonları (EADGBE)</h3>
+                <small>Kulağınızı eğiterek tellerinizi standart 440 Hz'e akort edin</small>
+              </div>
+            </div>
+
+            <p class="tuner-instruction">
+              Bir tele tıklayarak gerçek akustik frekansını dinleyin, gitarınızın telini bu sese eşitleyin:
+            </p>
+
+            <div class="guitar-strings-grid">
+              <button class="string-btn" data-freq="329.63" data-note="E4 (1. Tel - İnce Mi)">
+                <span class="string-num">1</span>
+                <span class="string-name">E4</span>
+                <small>329.6 Hz</small>
+              </button>
+
+              <button class="string-btn" data-freq="246.94" data-note="B3 (2. Tel - Si)">
+                <span class="string-num">2</span>
+                <span class="string-name">B3</span>
+                <small>246.9 Hz</small>
+              </button>
+
+              <button class="string-btn" data-freq="196.00" data-note="G3 (3. Tel - Sol)">
+                <span class="string-num">3</span>
+                <span class="string-name">G3</span>
+                <small>196.0 Hz</small>
+              </button>
+
+              <button class="string-btn" data-freq="146.83" data-note="D3 (4. Tel - Re)">
+                <span class="string-num">4</span>
+                <span class="string-name">D3</span>
+                <small>146.8 Hz</small>
+              </button>
+
+              <button class="string-btn" data-freq="110.00" data-note="A2 (5. Tel - La)">
+                <span class="string-num">5</span>
+                <span class="string-name">A2</span>
+                <small>110.0 Hz</small>
+              </button>
+
+              <button class="string-btn" data-freq="82.41" data-note="E2 (6. Tel - Kalın Mi)">
+                <span class="string-num">6</span>
+                <span class="string-name">E2</span>
+                <small>82.4 Hz</small>
+              </button>
+            </div>
+
+            <div class="tuner-active-status" id="tuner-status">
+              <i class="fa-solid fa-volume-high"></i> <span id="tuner-note-label">Çalmak için bir tele tıklayın</span>
+              <button id="tuner-stop-btn" class="tuner-stop-btn" style="display:none;">Durdur</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nota & Eser Kütüphanesi -->
+    <section class="library section" id="library">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// NOTA ARŞİVİ</span>
+          <h2 class="section-title">Öne Çıkan Klasik Gitar Notaları & Etütler</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Öğrencilerimiz için özenle parmak numaraları (fingering) eklenmiş, PDF formatında ücretsiz indirilebilir popüler eserler.
+          </p>
+        </div>
+
+        <!-- Filtre Sekmeleri -->
+        <div class="library-filters">
+          <button class="lib-filter-btn active" data-filter="all">Tüm Eserler</button>
+          <button class="lib-filter-btn" data-filter="beginner">Başlangıç</button>
+          <button class="lib-filter-btn" data-filter="intermediate">Orta Seviye</button>
+          <button class="lib-filter-btn" data-filter="advanced">İleri / Virtüöz</button>
+        </div>
+
+        <div class="library-grid">
+          <!-- Eser 1 -->
+          <div class="score-card" data-category="intermediate">
+            <div class="score-header">
+              <span class="score-level badge-mid">Orta Seviye</span>
+              <span class="score-era">Romantik Dönem</span>
+            </div>
+            <h3 class="score-title">Romance Anónimo (İspanyol Romansı)</h3>
+            <h4 class="score-composer">Anonim / Düzenleme</h4>
+            <p class="score-desc">
+              Klasik gitarın en tanınan başyapıtı. Mi minör arpej akışı ve melodi-eşlik dengesi için mükemmel bir çalışma.
+            </p>
+            <div class="score-footer">
+              <button class="btn-play-preview" data-piece="Romance Anónimo">
+                <i class="fa-solid fa-play"></i> Ön Dinleme
+              </button>
+              <button class="btn-download-pdf" data-title="Romance Anónimo">
+                <i class="fa-solid fa-file-pdf"></i> PDF İndir
+              </button>
+            </div>
+          </div>
+
+          <!-- Eser 2 -->
+          <div class="score-card" data-category="intermediate">
+            <div class="score-header">
+              <span class="score-level badge-mid">Orta Seviye</span>
+              <span class="score-era">Romantik / İspanyol</span>
+            </div>
+            <h3 class="score-title">Lágrima (Gözyaşı)</h3>
+            <h4 class="score-composer">Francisco Tárrega</h4>
+            <p class="score-desc">
+              Mi Majör ve Mi Minör ton geçişleri, pozisyon kaydırma ve tını zenginliği kazandıran duygu dolu bir prelüd.
+            </p>
+            <div class="score-footer">
+              <button class="btn-play-preview" data-piece="Lágrima">
+                <i class="fa-solid fa-play"></i> Ön Dinleme
+              </button>
+              <button class="btn-download-pdf" data-title="Lagrima">
+                <i class="fa-solid fa-file-pdf"></i> PDF İndir
+              </button>
+            </div>
+          </div>
+
+          <!-- Eser 3 -->
+          <div class="score-card" data-category="advanced">
+            <div class="score-header">
+              <span class="score-level badge-adv">İleri Seviye</span>
+              <span class="score-era">Romantik / Flamenko</span>
+            </div>
+            <h3 class="score-title">Asturias (Leyenda)</h3>
+            <h4 class="score-composer">Isaac Albéniz</h4>
+            <p class="score-desc">
+              Piyano için yazılıp gitara uyarlanan, hızlı başparmak ve arpej ataklarıyla nefes kesen İspanyol klasiği.
+            </p>
+            <div class="score-footer">
+              <button class="btn-play-preview" data-piece="Asturias">
+                <i class="fa-solid fa-play"></i> Ön Dinleme
+              </button>
+              <button class="btn-download-pdf" data-title="Asturias">
+                <i class="fa-solid fa-file-pdf"></i> PDF İndir
+              </button>
+            </div>
+          </div>
+
+          <!-- Eser 4 -->
+          <div class="score-card" data-category="beginner">
+            <div class="score-header">
+              <span class="score-level badge-beg">Başlangıç</span>
+              <span class="score-era">Klasik Dönem</span>
+            </div>
+            <h3 class="score-title">Andantino in G Major</h3>
+            <h4 class="score-composer">Matteo Carcassi (Op. 59)</h4>
+            <p class="score-desc">
+              Yeni başlayanlar için iki sesli kontrpuan ve temel bas yürüyüşlerini kavratan klasik bir didaktik parça.
+            </p>
+            <div class="score-footer">
+              <button class="btn-play-preview" data-piece="Andantino in G">
+                <i class="fa-solid fa-play"></i> Ön Dinleme
+              </button>
+              <button class="btn-download-pdf" data-title="Carcassi Andantino">
+                <i class="fa-solid fa-file-pdf"></i> PDF İndir
+              </button>
+            </div>
+          </div>
+
+          <!-- Eser 5 -->
+          <div class="score-card" data-category="advanced">
+            <div class="score-header">
+              <span class="score-level badge-adv">İleri Seviye</span>
+              <span class="score-era">Romantik / İspanyol</span>
+            </div>
+            <h3 class="score-title">Recuerdos de la Alhambra</h3>
+            <h4 class="score-composer">Francisco Tárrega</h4>
+            <p class="score-desc">
+              El Hamra Sarayı'nın çeşmelerini canlandıran, klasik gitarın zirve tremolo tekniği başyapıtı.
+            </p>
+            <div class="score-footer">
+              <button class="btn-play-preview" data-piece="Recuerdos de la Alhambra">
+                <i class="fa-solid fa-play"></i> Ön Dinleme
+              </button>
+              <button class="btn-download-pdf" data-title="Recuerdos de la Alhambra">
+                <i class="fa-solid fa-file-pdf"></i> PDF İndir
+              </button>
+            </div>
+          </div>
+
+          <!-- Eser 6 -->
+          <div class="score-card" data-category="intermediate">
+            <div class="score-header">
+              <span class="score-level badge-mid">Orta Seviye</span>
+              <span class="score-era">Barok Dönem</span>
+            </div>
+            <h3 class="score-title">Bourrée in E minor (BWV 996)</h3>
+            <h4 class="score-composer">Johann Sebastian Bach</h4>
+            <p class="score-desc">
+              Lavta süitinden gitara uyarlanan, kontrpuan ve bağımsız iki el ritmik dengesini geliştiren ölümsüz dans parçası.
+            </p>
+            <div class="score-footer">
+              <button class="btn-play-preview" data-piece="Bach Bourrée">
+                <i class="fa-solid fa-play"></i> Ön Dinleme
+              </button>
+              <button class="btn-download-pdf" data-title="Bach Bourrée">
+                <i class="fa-solid fa-file-pdf"></i> PDF İndir
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eğitmen Kadrosu -->
+    <section class="instructors section" id="instructors">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// AKADEMİK KADRO</span>
+          <h2 class="section-title">Usta Eğitmenlerimiz</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Konservatuar kökenli, uluslararası festivallerde sahne almış ve yüzlerce gitarist yetiştirmiş tecrübeli kadro.
+          </p>
+        </div>
+
+        <div class="instructors-grid">
+          <!-- Eğitmen 1 -->
+          <div class="instructor-card">
+            <div class="instructor-avatar-box">
+              <div class="instructor-avatar-placeholder wood-gradient-1">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h3 class="instructor-name">Ahmet Can Yıldız</h3>
+              <span class="instructor-title">Baş Eğitmen & Konser Gitaristi</span>
+              <p class="instructor-bio">
+                Mimar Sinan Konservatuarı mezunu. 15 yılı aşkın süredir ileri seviye repertuar, Villa-Lobos ve Barok yorumlama üzerine dersler vermektedir.
+              </p>
+              <div class="instructor-credentials">
+                <span><i class="fa-solid fa-graduation-cap"></i> Mimar Sinan Lisans & Y.Lisans</span>
+                <span><i class="fa-solid fa-trophy"></i> Uluslararası Gitar Yarışması 1.liği</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Eğitmen 2 -->
+          <div class="instructor-card">
+            <div class="instructor-avatar-box">
+              <div class="instructor-avatar-placeholder wood-gradient-2">
+                <i class="fa-solid fa-user-graduate"></i>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h3 class="instructor-name">Selin Erdem</h3>
+              <span class="instructor-title">Temel & Orta Düzey Eğitmeni</span>
+              <p class="instructor-bio">
+                Çocuk ve yetişkin başlangıç eğitimlerinde uzmanlaşmış; ergonomik duruş, solfej ve tırnak sağlığı odaklı özel metodolojisiyle tanınmaktadır.
+              </p>
+              <div class="instructor-credentials">
+                <span><i class="fa-solid fa-graduation-cap"></i> İTÜ Türk Musikisi Devlet Konservatuarı</span>
+                <span><i class="fa-solid fa-award"></i> LCM Grade 8 Sertifikalı</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Eğitmen 3 -->
+          <div class="instructor-card">
+            <div class="instructor-avatar-box">
+              <div class="instructor-avatar-placeholder wood-gradient-3">
+                <i class="fa-solid fa-music"></i>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h3 class="instructor-name">Murat Karaca</h3>
+              <span class="instructor-title">Flamenko & Ritim Eğitmeni</span>
+              <p class="instructor-bio">
+                Endülüs'te flamenko ustalarıyla çalışmış olup rasgueado, alzapuá ve compás ritimleri alanında atölyeler düzenlemektedir.
+              </p>
+              <div class="instructor-credentials">
+                <span><i class="fa-solid fa-graduation-cap"></i> Granada Flamenko Akademisi</span>
+                <span><i class="fa-solid fa-guitar"></i> 12+ Yıl Sahne Deneyimi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Öğrenci Yorumları -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// ÖĞRENCİ DENEYİMLERİ</span>
+          <h2 class="section-title">Gitar Tutkunları Ne Diyor?</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Yıllardır kendi kendime çalmaya çalışırken sağ elimi hep yanlış konumlandırmışım. Ahmet Hoca'nın tırnak ve duruş düzeltmeleri sayesinde sadece 2 ayda tonum bambaşka bir seviyeye ulaştı."
+            </p>
+            <div class="student-meta">
+              <strong>Burak Aksoy</strong>
+              <small>Mimar (Orta Düzey Öğrenci)</small>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "40 yaşımdan sonra klasik gitara başladım ve çok çekiniyordum. Selin Hanım'ın sabırlı yaklaşımı ve akademinin nota arşivi sayesinde artık Carulli etütlerini rahatlıkla deşifre edebiliyorum."
+            </p>
+            <div class="student-meta">
+              <strong>Deniz Yaman</strong>
+              <small>Öğretmen (Başlangıç Düzeyi)</small>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Konservatuar giriş sınavına hazırlanırken Arpej Akademi ile çalıştım. Bach süitleri yorumlama dersleri ve haftalık canlı dinletiler sınavı dereceyle kazanmamda en büyük pay sahibi oldu."
+            </p>
+            <div class="student-meta">
+              <strong>Emre Çelik</strong>
+              <small>Konservatuar Öğrencisi</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sıkça Sorulan Sorular (Accordion) -->
+    <section class="faq section" id="faq">
+      <div class="container faq-container">
+        <div class="section-header">
+          <span class="section-tag">// MERAK EDİLENLER</span>
+          <h2 class="section-title">Sıkça Sorulan Sorular</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Klasik gitara başlamak için önceden nota bilmek gerekir mi?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Kesinlikle hayır! Eğitimlerimizin 1. Seviyesi sıfırdan başlayanlar için tasarlanmıştır. Nota okuma ve ritim temellerini parmak egzersizleriyle eş zamanlı, sıkılmadan ve pratik yaparak öğrenirsiniz.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Dersler online mı yoksa yüz yüze mi yapılıyor?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Her iki seçenek de mevcuttur. Dileyen öğrencilerimiz stüdyomuzda birebir yüz yüze ders alabilir; şehir dışı veya yurt dışındaki öğrencilerimiz ise yüksek çözünürlüklü çoklu kamera açılı online platformumuz üzerinden katılabilir.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Hangi gitarı satın almalıyım? Gitarım olmadan başlayabilir miyim?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                İlk deneme dersinizde eğitmenimiz el yapınız ve bütçenize göre (masif ladin veya sedir kapaklı, 4/4 veya 7/8 boyutlarında) en uygun başlangıç gitarını seçmeniz konusunda ücretsiz danışmanlık sağlar. Stüdyomuzdaki derslerde kurum gitarlarını kullanabilirsiniz.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Tırnak uzatmak zorunlu mudur?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Başlangıç seviyesinde tırnaksız olarak parmak ucu etiyle (apoyando/tirando) çalınabilir. İleri düzeyde sıcak, berrak ve parlak bir ton elde etmek için sağ el tırnaklarının anatomik olarak nasıl törpüleneceğini adım adım gösteriyoruz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kayıt & Ücretsiz Deneme Dersi Formu -->
+    <section class="register section" id="register">
+      <div class="container">
+        <div class="register-wrapper">
+          <div class="register-info">
+            <span class="section-tag">// İLK ADIMI ATIN</span>
+            <h2 class="register-heading">Ücretsiz Tanışma & Seviye Tespit Dersi Alın</h2>
+            <p class="register-subtext">
+              Klasik gitar tutkunuzu ertelemeyin. 30 dakikalık birebir seansımızda seviyenizi belirleyelim, hedeflerinize uygun kişisel yol haritanızı çizelim.
+            </p>
+
+            <div class="register-perks">
+              <div class="perk-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Gitar seçimi ve duruş analizi</span>
+              </div>
+              <div class="perk-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Tüm nota ve video arşivine 7 gün tam erişim</span>
+              </div>
+              <div class="perk-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Hiçbir taahhüt veya kredi kartı gerektirmez</span>
+              </div>
+            </div>
+
+            <div class="academy-contact-box">
+              <div class="contact-line">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Konservatuar Caddesi No: 24, Kadıköy / İstanbul</span>
+              </div>
+              <div class="contact-line">
+                <i class="fa-solid fa-phone"></i>
+                <span>+90 (216) 450 00 24</span>
+              </div>
+              <div class="contact-line">
+                <i class="fa-solid fa-envelope"></i>
+                <span>bilgi@arpejgitar.com</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kayıt Formu -->
+          <div class="register-form-box">
+            <form id="guitar-register-form" class="guitar-form">
+              <h3 class="form-title">Ders Başvuru Formu</h3>
+
+              <div class="form-group">
+                <label for="student-name">Adınız Soyadınız *</label>
+                <input type="text" id="student-name" name="name" placeholder="Örn: Eren Kaya" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="student-email">E-Posta Adresiniz *</label>
+                  <input type="email" id="student-email" name="email" placeholder="eren@ornek.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="student-phone">Telefon Numaranız *</label>
+                  <input type="tel" id="student-phone" name="phone" placeholder="05XX XXX XX XX" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="student-level">Mevcut Gitar Seviyeniz</label>
+                  <select id="student-level" name="level">
+                    <option value="beginner">Hiç Bilmiyorum (Sıfırdan Başlangıç)</option>
+                    <option value="elementary">Temel Akor ve Basit Parçalar Biliyorum</option>
+                    <option value="intermediate">Orta Düzey (Arpej ve Bare Çalabiliyorum)</option>
+                    <option value="advanced">İleri Düzey / Konservatuara Hazırlık</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="lesson-type">Ders Tercihi</label>
+                  <select id="lesson-type" name="type">
+                    <option value="online">Canlı Online (Birebir)</option>
+                    <option value="studio">Stüdyoda Yüz Yüze (Kadıköy)</option>
+                    <option value="group">Haftalık Grup Atölyesi</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="student-notes">Varsa Hedefleriniz veya Notlarınız</label>
+                <textarea id="student-notes" name="notes" rows="3" placeholder="Öğrenmek istediğiniz özel bir eser, gitarınızın olup olmadığı vb..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-lg">
+                <i class="fa-solid fa-paper-plane"></i> Ücretsiz Deneme Dersimi Oluştur
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          <span class="logo-icon"><i class="fa-solid fa-guitar"></i></span>
+          <span class="logo-text">ARPEJ<span class="logo-sub">AKADEMİ</span></span>
+        </a>
+        <p class="footer-desc">
+          Klasik gitarın zengin mirasını korumak, doğru tekniklerle yeni nesil gitaristler yetiştirmek ve müzik sevgisini yaymak amacıyla kurulmuş bağımsız müzik eğitim platformudur.
+        </p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Hızlı Menü</h4>
+        <ul>
+          <li><a href="#programs">Eğitim Programları</a></li>
+          <li><a href="#tools">Metronom & Akort</a></li>
+          <li><a href="#library">Nota Arşivi</a></li>
+          <li><a href="#instructors">Eğitmenler</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Akademi & İletişim</h4>
+        <ul>
+          <li><a href="#register">Deneme Dersi Al</a></li>
+          <li><a href="#faq">Sıkça Sorulan Sorular</a></li>
+          <li><a href="mailto:bilgi@arpejgitar.com">bilgi@arpejgitar.com</a></li>
+          <li><span>Kadıköy, İstanbul</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-social-col">
+        <h4>Bizi Takip Edin</h4>
+        <div class="footer-social-links">
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© <span id="current-year"></span> Arpej Klasik Gitar Akademisi. Tüm hakları saklıdır.</p>
+        <p class="footer-credit">Zarafet, Disiplin ve Tutkuyla Kodlandı.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Bildirim Kutusu -->
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
